@@ -233,50 +233,67 @@
         /* certificate section */
 
         .certificate-card {
-  width: 280px;
-  background-color: #0f172a;
-  border: 1px solid #00f0ff40;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  gap: 30px;
-  
-}
+            width: 280px;
+            background-color: #0f172a;
+            border: 1px solid #00f0ff40;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            gap: 30px;
+           
+            
+            
+            }
 
-.certificate-card:hover {
-  transform: translateY(-8px);
-   box-shadow: 0 0 30px rgba(0, 240, 255, 0.3);
-  
-}
+            .certificate-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 30px rgba(0, 240, 255, 0.3);
+            
+            
+            
+        }
 
-.certificate-image {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  
-}
+            .certificate-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            
+            
+            
+            }
 
-.certificate-title {
-  padding: 1rem;
-  font-family: 'Orbitron', sans-serif;
-  color: var(--neon-blue);
-  text-align: center;
+            .certificate-title {
+            padding: 1rem;
+            font-family: 'Orbitron', sans-serif;
+            color: var(--neon-blue);
+            text-align: center;
 
-}
-.certificates-container {
-  scrollbar-width: none;  
-  -ms-overflow-style: none;
-    margin-top: 30px;
-    
-  
-  
-}
+            }
+            .certificates-container {
+            scrollbar-width: none;  
+            -ms-overflow-style: none; 
+            }
 
-.certificates-container::-webkit-scrollbar {
-  display: none; 
-  
-}
+            .certificates-container::-webkit-scrollbar {
+            display: none; 
+            
+            }
+            .section {
+                min-height: 100vh;
+                padding: 5% 10%;
+                }
+
+                #certificates.section {
+                    padding-top: 2%;
+                    padding-bottom: 2%;
+                    }
+
+                    .section.projects {
+                        padding-bottom: 2%;
+                        }
+
+
 
 
 
