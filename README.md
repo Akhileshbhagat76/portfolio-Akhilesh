@@ -23,13 +23,6 @@
 - **Three.js / React Three Fiber** (for 3D elements)
 - **GSAP / AOS** (for animations)
 
-## 📸 Screenshots
 
-> *(Add screenshots or screen recordings of your website here)*
 
-## 🔗 Live Demo
-
-> [https://your-portfolio-link.com](https://your-portfolio-link.com)
-
-## 📁 Project Structure
 
